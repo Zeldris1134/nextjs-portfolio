@@ -34,7 +34,7 @@ function About() {
           I&apos;ve embarked on a tech journey marked by my unwavering commitment to continuous learning. In the ever-evolving tech landscape, I firmly believe in staying ahead of the curve. This dedication has led me to participate in industry events and engage in coding bootcamps, all aimed at expanding my knowledge and skill set.
           </p>
           <p className="about-grid-info-text">
-          I&apos;m enthusiastic about taking on fresh challenges and providing creative solutions, and I'm eager for the opportunities that lie ahead in the dynamic world of technology.
+          I&apos;m enthusiastic about taking on fresh challenges and providing creative solutions, and I&apos;m eager for the opportunities that lie ahead in the dynamic world of technology.
           </p>
           <p className="about-grid-info-text">
             Here are a few technologies I&apos;ve been working with recently:
