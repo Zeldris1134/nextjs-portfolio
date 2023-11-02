@@ -74,7 +74,6 @@ function Projects() {
         "Technotes is a robust full stack application developed using the MERN stack. This project is centered around a company that transitioned from a sticky note solution to address recurring ticket losses. You can explore the test user account with these credentials: User - Demo | Password - 12345678. Please note that the backend connection may take a moment to establish.",
       projectTech: [
         "React",
-        "CSS",
         "MongoDB",
         "Node.js",
         "Express"
