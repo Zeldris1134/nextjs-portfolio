@@ -10,6 +10,7 @@ const firaCode = Fira_Code({
 });
 
 export default function App({ Component, pageProps }: AppProps) {
+  const AnyComponent = Component as any;
   return (
     <>
       <style jsx global>{`
@@ -18,7 +19,7 @@ export default function App({ Component, pageProps }: AppProps) {
           --fira-code: ${firaCode.style.fontFamily};
         }
       `}</style>
-      <Component {...pageProps} />;
+      <AnyComponent {...pageProps} />
     </>
   );
 }
