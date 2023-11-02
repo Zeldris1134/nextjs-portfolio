@@ -57,7 +57,5 @@ The following technologies were used to create this portfolio:
 | Purple         | `#9d00ff` |
 
 
-[Kinsta Database Hosting](https://kinsta.com/database-hosting/?utm_source=kishan&utm_medium=digital&utm_campaign=database-hosting&utm_content=blog)
-
 
 ### This project was a part of my Youtube Channel. Check out the video to learn how to build this awesome portfolio from scratch and host the NEXT.JS Portfolio on Kinsta.
