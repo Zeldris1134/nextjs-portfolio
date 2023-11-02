@@ -1,0 +1,65 @@
+:root {
+  --primary-shadow: rgba(40, 40, 40, 0.7);
+  --primary-background: #333333; /* Dark gray background */
+  --light-gray: #666666; /* Light gray */
+  --gray: #4c4c4c; /* Slightly darker gray */
+  --lighter-gray: #999999; /* Light gray */
+  --medium-gray: #cccccc; /* Gray */
+  --dark-gray: #e5e5e5; /* Light gray */
+  --lightest-gray: #f7f7f7; /* Very light gray */
+  --accent-color: #ff6600; /* Orange theme color */
+  --hover-color: #ff660080; /* Semi-transparent orange for hover effect */
+  
+}
+
+::-moz-selection {
+  color: white;
+  background: var(--accent-color);
+}
+
+::selection {
+  color: white;
+  background: var(--accent-color);
+}
+
+html,
+body {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  background-color: var(--primary-background);
+  counter-reset: title;
+}
+
+main {
+  transition: 0.3s ease-in-out;
+}
+
+.blur {
+  filter: blur(10px);
+  pointer-events: none;
+  user-select: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--lighter-gray) var(--primary-background);
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: var(--primary-background);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--lighter-gray);
+  border: 3px solid var(--primary-background);
+  border-radius: 10px;
+}
