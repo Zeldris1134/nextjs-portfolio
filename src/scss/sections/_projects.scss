@@ -2,7 +2,7 @@
   margin: 15rem 0;
   .title {
     font-family: var(--raleway);
-    color: var(--lightest-gray);
+    color: var(--light-white);
     position: relative;
     h2 {
       margin-bottom: 2rem;
@@ -22,7 +22,7 @@
         width: 300px;
         height: 2px;
         margin-left: 420px;
-        background-color: var(--light-gray);
+        background-color: var(--dark-gray);
       }
     }
   }
@@ -79,7 +79,7 @@
         }
         &-title {
           width: max-content;
-          color: var(--lightest-gray);
+          color: var(--light-white);
           font-size: var(--txlarge);
           font-family: var(--raleway);
           cursor: pointer;
@@ -89,10 +89,10 @@
           }
         }
         &-description {
-          background-color: var(--gray);
+          background-color: var(--darker-gray);
           border-radius: 0.2rem;
           p {
-            color: var(--dark-gray);
+            color: var(--lighter-gray);
             font-family: var(--raleway);
             padding: 2rem;
             text-align: end;
@@ -104,7 +104,7 @@
           gap: 1rem;
           flex-wrap: wrap;
           &-item {
-            color: var(--dark-gray);
+            color: var(--lighter-gray);
             font-family: var(--raleway);
           }
         }
@@ -120,7 +120,7 @@
             align-items: center;
             &-link {
               padding: 10px;
-              color: var(--lightest-gray);
+              color: var(--light-white);
               transition: 0.3s ease-in-out;
               outline: 2px dashed transparent;
               &:hover {

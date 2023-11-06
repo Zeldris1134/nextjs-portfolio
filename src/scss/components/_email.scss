@@ -8,7 +8,7 @@
   &-link {
     writing-mode: vertical-rl;
     text-decoration: none;
-    color: var(--dark-gray);
+    color: var(--lighter-gray);
     font-family: var(--fira-code);
     font-size: var(--tsm2);
     letter-spacing: 0.1rem;
@@ -29,7 +29,7 @@
     width: 2px;
     height: 90px;
     margin: 0px auto;
-    background-color: var(--dark-gray);
+    background-color: var(--lighter-gray);
   }
   @media screen and (max-width: 1080px) {
     right: 2rem;

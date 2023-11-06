@@ -42,7 +42,7 @@ nav {
     .nav-items {
       display: flex;
       gap: 3em;
-      color: var(--lightest-gray);
+      color: var(--light-white);
       font-family: var(--fira-code);
       font-weight: 500;
       font-size: var(--tsm1);
@@ -90,7 +90,7 @@ nav {
         visibility: hidden;
         top: 0;
         padding: 50px 10px;
-        background-color: var(--gray);
+        background-color: var(--darker-gray);
         flex-direction: column;
         justify-content: center;
         align-items: center;

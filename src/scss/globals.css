@@ -1,15 +1,14 @@
 :root {
   --primary-shadow: rgba(40, 40, 40, 0.7);
   --primary-background: #333333; /* Dark gray background */
-  --light-gray: #666666; /* Light gray */
-  --gray: #4c4c4c; /* Slightly darker gray */
-  --lighter-gray: #999999; /* Light gray */
-  --medium-gray: #cccccc; /* Gray */
-  --dark-gray: #e5e5e5; /* Light gray */
-  --lightest-gray: #f7f7f7; /* Very light gray */
+  --dark-gray: #666666; /* Dark gray */
+  --darker-gray: #4c4c4c; /* Darker gray */
+  --gray: #999999; /* Gray */
+  --light-gray: #cccccc; /* Light Gray */
+  --lighter-gray: #e5e5e5; /* Lighter gray */
+  --light-white: #f7f7f7; /* Light Snow White */
   --accent-color: #ff6600; /* Orange theme color */
   --hover-color: #ff660080; /* Semi-transparent orange for hover effect */
-  
 }
 
 ::-moz-selection {
@@ -50,7 +49,7 @@ main {
 
 html {
   scrollbar-width: thin;
-  scrollbar-color: var(--lighter-gray) var(--primary-background);
+  scrollbar-color: var(--gray) var(--primary-background);
 }
 ::-webkit-scrollbar {
   width: 12px;
@@ -59,7 +58,7 @@ html {
   background: var(--primary-background);
 }
 ::-webkit-scrollbar-thumb {
-  background-color: var(--lighter-gray);
+  background-color: var(--gray);
   border: 3px solid var(--primary-background);
   border-radius: 10px;
 }
