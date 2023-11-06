@@ -47,7 +47,7 @@ The following technologies were used to create this portfolio:
 
 | Color          | Hex                                                                |
 | -------------- | ------------------------------------------------------------------ |
-| Darkest Gray   | `#333333` |
+| Background     | `#333333` |
 | Dark Gray      | `#666666` |
 | Darker Gray    | `#4c4c4c` |
 | Gray           | `#999999` |
