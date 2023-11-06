@@ -14,29 +14,27 @@ function Experience() {
 
   const expereinces = [
     {
-      name: "Whitecliffe L4",
-      role: "Level 4 Certificate in IT Essentials",
-      url: "https://www.whitecliffe.ac.nz/technology/certificate-in-it-essentials-l4",
-      start: "February 2021",
-      end: "July 2021",
+      name: "Whitecliffe L7",
+      role: "Bachelor of Applied Information Technology",
+      url: "https://www.whitecliffe.ac.nz/technology/bachelor-in-applied-information-technology-bappit-l7",
+      start: "July 2023",
+      end: "Present",
       shortDescription: [
-        "IT Fundamentals (Assembling and Disassembly computers, Fault Finding computers, setting up a simple network devices).",
-        "Information Management (Design/Creating relational databases using Microsoft Access).",
-        "Web Design (Using HTML, CSS & JavaScript to develop simple websites).",
-        "Software Development (Fundamentals of coding (Functions, Variables and Boolean Expressions), Creating GUI interface programs in python).",
+        "Comprehensive Software Development - Learn C# development with Windows Forms and .NET, covering object-oriented programming, problem-solving, and advanced techniques for real-world applications.",
+        "Web Development and Interaction Design - Develop web-based applications with a focus on interaction design, including user research, information architecture, interface design, and prototyping.",
+        "Data-Driven Web Development - Design and develop data-driven websites, emphasizing web architectures, scripting languages, database interaction, and information security."
       ],
     },
     {
-      name: "Whitecliffe L5",
-      role: "Level 5 Certificate in Information Technology",
-      url: "https://www.whitecliffe.ac.nz/technology/certificate-in-information-technology-l5",
-      start: "July 2021",
-      end: "December 2021",
+      name: "Yoobee",
+      role: "Level 5 UX Design Micro-credential",
+      url: "https://www.yoobee.ac.nz/short-course/ux-design-micro-credential",
+      start: "August 2023",
+      end: "October 2023",
       shortDescription: [
-        "IT Systems (Installation of Linux and Windows OS, Basic Networking/Subnetting).",
-        "Professional Practice (Covered basics on principles to follow within IT Industry).",
-        "Data Handling & Web Concepts (Microsoft SQL database, HTML, CSS, and Java Script).",
-        "Programming Principles (Python Fundamentals, OOP C# coding)."
+        "Write modern, performant, maintainable code for a diverse array of client and internal projects",
+        "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify",
+        "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
       ],
     },
     {
@@ -53,29 +51,31 @@ function Experience() {
       ],
     },
     {
-      name: "Yoobee",
-      role: "Level 5 UX Design Micro-credential",
-      url: "https://www.yoobee.ac.nz/short-course/ux-design-micro-credential",
-      start: "August 2023",
-      end: "October 2023",
+      name: "Whitecliffe L5",
+      role: "Level 5 Certificate in Information Technology",
+      url: "https://www.whitecliffe.ac.nz/technology/certificate-in-information-technology-l5",
+      start: "July 2021",
+      end: "December 2021",
       shortDescription: [
-        "Write modern, performant, maintainable code for a diverse array of client and internal projects",
-        "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify",
-        "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
+        "IT Systems (Installation of Linux and Windows OS, Basic Networking/Subnetting).",
+        "Professional Practice (Covered basics on principles to follow within IT Industry).",
+        "Data Handling & Web Concepts (Microsoft SQL database, HTML, CSS, and Java Script).",
+        "Programming Principles (Python Fundamentals, OOP C# coding)."
       ],
     },
     {
-      name: "Whitecliffe L7",
-      role: "Bachelor of Applied Information Technology",
-      url: "https://www.whitecliffe.ac.nz/technology/bachelor-in-applied-information-technology-bappit-l7",
-      start: "July 2023",
-      end: "Present",
+      name: "Whitecliffe L4",
+      role: "Level 4 Certificate in IT Essentials",
+      url: "https://www.whitecliffe.ac.nz/technology/certificate-in-it-essentials-l4",
+      start: "February 2021",
+      end: "July 2021",
       shortDescription: [
-        "Comprehensive Software Development - Learn C# development with Windows Forms and .NET, covering object-oriented programming, problem-solving, and advanced techniques for real-world applications.",
-        "Web Development and Interaction Design - Develop web-based applications with a focus on interaction design, including user research, information architecture, interface design, and prototyping.",
-        "Data-Driven Web Development - Design and develop data-driven websites, emphasizing web architectures, scripting languages, database interaction, and information security."
+        "IT Fundamentals (Assembling and Disassembly computers, Fault Finding computers, setting up a simple network devices).",
+        "Information Management (Design/Creating relational databases using Microsoft Access).",
+        "Web Design (Using HTML, CSS & JavaScript to develop simple websites).",
+        "Software Development (Fundamentals of coding (Functions, Variables and Boolean Expressions), Creating GUI interface programs in python).",
       ],
-    },
+    }, 
   ];
   return (
     <motion.div
