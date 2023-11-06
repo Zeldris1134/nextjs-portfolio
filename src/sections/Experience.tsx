@@ -14,7 +14,7 @@ function Experience() {
 
   const expereinces = [
     {
-      name: "Whitecliffe L7",
+      name: "Whitecliffe",
       role: "Bachelor of Applied Information Technology",
       url: "https://www.whitecliffe.ac.nz/technology/bachelor-in-applied-information-technology-bappit-l7",
       start: "July 2023",
@@ -38,7 +38,7 @@ function Experience() {
       ],
     },
     {
-      name: "Whitecliffe L6",
+      name: "Whitecliffe",
       role: "Level 6 Diploma in Software Development",
       url: "https://www.whitecliffe.ac.nz/technology/diploma-software-development-l6",
       start: "February 2022",
@@ -51,7 +51,7 @@ function Experience() {
       ],
     },
     {
-      name: "Whitecliffe L5",
+      name: "Whitecliffe",
       role: "Level 5 Certificate in Information Technology",
       url: "https://www.whitecliffe.ac.nz/technology/certificate-in-information-technology-l5",
       start: "July 2021",
@@ -64,7 +64,7 @@ function Experience() {
       ],
     },
     {
-      name: "Whitecliffe L4",
+      name: "Whitecliffe",
       role: "Level 4 Certificate in IT Essentials",
       url: "https://www.whitecliffe.ac.nz/technology/certificate-in-it-essentials-l4",
       start: "February 2021",
@@ -103,7 +103,7 @@ function Experience() {
                   index === selected && "exp-slider-item-selected"
                 }`}
                 onClick={() => setSelected(index)}
-                key={expereince.name}
+                key={expereince.role}
               >
                 <span>{expereince.name}</span>
               </li>
