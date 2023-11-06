@@ -9,7 +9,7 @@ The following technologies were used to create this portfolio:
 - Typescript
 - SCSS
 - Framer Motion
-- Kinsta
+- Netlify
 
 
 
@@ -47,15 +47,12 @@ The following technologies were used to create this portfolio:
 
 | Color          | Hex                                                                |
 | -------------- | ------------------------------------------------------------------ |
-| Navy           | `#0a192f` |
-| Light Navy     | `#112240` |
-| Lightest Navy  | `#233554` |
-| Slate          | `#8892b0` |
-| Light Slate    | `#a8b2d1` |
-| Lightest Slate | `#ccd6f6` |
-| White          | `#e6f1ff` |
-| Purple         | `#9d00ff` |
+| Darkest Gray   | `#333333` |
+| Dark Gray      | `#666666` |
+| Darker Gray    | `#4c4c4c` |
+| Gray           | `#999999` |
+| Light Gray     | `#cccccc` |
+| Lighter Gray   | `#e5e5e5` |
+| Light White    | `#f7f7f7` |
+| Orange         | `#ff6600` |
 
-
-
-### This project was a part of my Youtube Channel. Check out the video to learn how to build this awesome portfolio from scratch and host the NEXT.JS Portfolio on Kinsta.
