@@ -32,9 +32,10 @@ function Experience() {
       start: "August 2023",
       end: "October 2023",
       shortDescription: [
-        "Write modern, performant, maintainable code for a diverse array of client and internal projects",
-        "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify",
-        "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
+        "UX Design: Core Concepts - Learn about the history, goals, role, and essential principles of user-centered design in UX.",
+        "Design - Master the design process by applying visual principles, generating innovative ideas, creating user-friendly interfaces, and implementing effective navigation patterns.",
+        "Research - Gather insights by aligning business goals with user needs, conducting thorough research, crafting user personas, and organizing information effectively. ",
+        "Testing - Evaluate designs through user-focused testing, refining iteratively, guiding test sessions, and extracting valuable insights from collected data."
       ],
     },
     {

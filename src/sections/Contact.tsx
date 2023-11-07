@@ -21,7 +21,7 @@ function Contact() {
         Whether you have a question or simply want to say hello, please don&apos;t hesitate to reach out. I&apos;ll do my best to respond as promptly as I can!
       </p>
       <div className="contact-cta">
-        <Button link="mailto:kishansheth21@gmail.com" text="Say Hello" />
+        <Button link="mailto:james.caddie@yahoo.co.nz" text="Say Hello" />
       </div>
     </motion.div>
   );
