@@ -50,7 +50,7 @@ function Projects() {
       projectTech: ["React", "MongoDB", "Node.js", "Express"],
       projectExternalLinks: {
         github: "https://github.com/Zeldris1134/technotes",
-        externalLink: "https://technotes-2uxo.onrender.com/"
+        externalLink: "https://technotes-api-gnqo.onrender.com/"
       }
     },
     {
