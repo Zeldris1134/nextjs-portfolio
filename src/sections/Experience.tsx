@@ -1,16 +1,16 @@
-import Link from "next/link";
-import React, { useEffect, useState } from "react";
-import { motion } from "framer-motion";
+import Link from "next/link"
+import React, { useEffect, useState } from "react"
+import { motion } from "framer-motion"
 function Experience() {
-  const [selected, setSelected] = useState(0);
+  const [selected, setSelected] = useState(0)
 
   useEffect(() => {
     const transformSelected = () => {
-      const underline = document.querySelector<HTMLElement>(".underline");
-      underline!.style.top = `${selected * 2.5}rem`;
-    };
-    transformSelected();
-  }, [selected]);
+      const underline = document.querySelector<HTMLElement>(".underline")
+      underline!.style.top = `${selected * 2.5}rem`
+    }
+    transformSelected()
+  }, [selected])
 
   const expereinces = [
     {
@@ -23,7 +23,7 @@ function Experience() {
         "Comprehensive Software Development - Learn C# development with Windows Forms and .NET, covering object-oriented programming, problem-solving, and advanced techniques for real-world applications.",
         "Web Development and Interaction Design - Develop web-based applications with a focus on interaction design, including user research, information architecture, interface design, and prototyping.",
         "Data-Driven Web Development - Design and develop data-driven websites, emphasizing web architectures, scripting languages, database interaction, and information security."
-      ],
+      ]
     },
     {
       name: "Yoobee",
@@ -36,7 +36,7 @@ function Experience() {
         "Design - Master the design process by applying visual principles, generating innovative ideas, creating user-friendly interfaces, and implementing effective navigation patterns.",
         "Research - Gather insights by aligning business goals with user needs, conducting thorough research, crafting user personas, and organizing information effectively. ",
         "Testing - Evaluate designs through user-focused testing, refining iteratively, guiding test sessions, and extracting valuable insights from collected data."
-      ],
+      ]
     },
     {
       name: "Whitecliffe",
@@ -48,8 +48,8 @@ function Experience() {
         "Software Development: Proficient in HTML/CSS, JavaScript, C#, Java, React Native, and mobile app development (Figma and Xamarin Forms).",
         "System Design: Experienced in gathering client requirements, designing and developing secure web applications, and implementing various data structures and algorithms.",
         "Testing and Maintenance: Proficient in testing and maintaining diverse software applications.",
-        "Agile Project Management: Well-versed in project planning and management using Agile software development methodologies.",
-      ],
+        "Agile Project Management: Well-versed in project planning and management using Agile software development methodologies."
+      ]
     },
     {
       name: "Whitecliffe",
@@ -62,7 +62,7 @@ function Experience() {
         "Professional Practice (Covered basics on principles to follow within IT Industry).",
         "Data Handling & Web Concepts (Microsoft SQL database, HTML, CSS, and Java Script).",
         "Programming Principles (Python Fundamentals, OOP C# coding)."
-      ],
+      ]
     },
     {
       name: "Whitecliffe",
@@ -74,10 +74,10 @@ function Experience() {
         "IT Fundamentals (Assembling and Disassembly computers, Fault Finding computers, setting up a simple network devices).",
         "Information Management (Design/Creating relational databases using Microsoft Access).",
         "Web Design (Using HTML, CSS & JavaScript to develop simple websites).",
-        "Software Development (Fundamentals of coding (Functions, Variables and Boolean Expressions), Creating GUI interface programs in python).",
-      ],
-    }, 
-  ];
+        "Software Development (Fundamentals of coding (Functions, Variables and Boolean Expressions), Creating GUI interface programs in python)."
+      ]
+    }
+  ]
   return (
     <motion.div
       className="experience"
@@ -88,7 +88,7 @@ function Experience() {
       transition={{ duration: 0.6 }}
       variants={{
         visible: { opacity: 1, y: -50 },
-        hidden: { opacity: 0, y: 0 },
+        hidden: { opacity: 0, y: 0 }
       }}
     >
       <div className="title">
@@ -108,7 +108,7 @@ function Experience() {
               >
                 <span>{expereince.name}</span>
               </li>
-            );
+            )
           })}
         </ul>
         <div className="exp-details">
@@ -117,7 +117,11 @@ function Experience() {
               <span>{expereinces[selected].role}</span>
               <span className="exp-details-position-company">
                 &nbsp;@&nbsp;
-                <Link href={expereinces[selected].url} target="_blank" className="link">
+                <Link
+                  href={expereinces[selected].url}
+                  target="_blank"
+                  className="link"
+                >
                   {expereinces[selected].name}
                 </Link>
               </span>
@@ -138,7 +142,7 @@ function Experience() {
         </div>
       </div>
     </motion.div>
-  );
+  )
 }
 
-export default Experience;
+export default Experience

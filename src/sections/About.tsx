@@ -1,14 +1,14 @@
-import Image from "next/image";
-import Link from "next/link";
-import React, { useEffect, useRef } from "react";
-import { useInView, motion } from "framer-motion";
+import Image from "next/image"
+import Link from "next/link"
+import React, { useEffect, useRef } from "react"
+import { useInView, motion } from "framer-motion"
 
 function About() {
-  const ref = useRef(null);
-  const isInView = useInView(ref);
+  const ref = useRef(null)
+  const isInView = useInView(ref)
   useEffect(() => {
-    console.log("Element is in view: ", isInView);
-  }, [isInView]);
+    console.log("Element is in view: ", isInView)
+  }, [isInView])
   return (
     <motion.div
       className="about"
@@ -19,7 +19,7 @@ function About() {
       transition={{ duration: 0.6 }}
       variants={{
         visible: { opacity: 1, y: -50 },
-        hidden: { opacity: 0, y: 0 },
+        hidden: { opacity: 0, y: 0 }
       }}
     >
       <div className="title">
@@ -28,13 +28,25 @@ function About() {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-          Greetings, I&apos;m James, a committed developer well-versed in web and mobile development. My proficiency spans both front-end and back-end technologies, allowing me to design engaging user interfaces and establish sturdy, scalable systems. I&apos;m passionate about crafting seamless user experiences while ensuring the reliability of the underlying infrastructure.
+            Greetings, I&apos;m James, a committed developer well-versed in web
+            and mobile development. My proficiency spans both front-end and
+            back-end technologies, allowing me to design engaging user
+            interfaces and establish sturdy, scalable systems. I&apos;m
+            passionate about crafting seamless user experiences while ensuring
+            the reliability of the underlying infrastructure.
           </p>
           <p className="about-grid-info-text">
-          I&apos;ve embarked on a tech journey marked by my unwavering commitment to continuous learning. In the ever-evolving tech landscape, I firmly believe in staying ahead of the curve. This dedication has led me to participate in industry events and engage in coding bootcamps, all aimed at expanding my knowledge and skill set.
+            I&apos;ve embarked on a tech journey marked by my unwavering
+            commitment to continuous learning. In the ever-evolving tech
+            landscape, I firmly believe in staying ahead of the curve. This
+            dedication has led me to participate in industry events and engage
+            in coding bootcamps, all aimed at expanding my knowledge and skill
+            set.
           </p>
           <p className="about-grid-info-text">
-          I&apos;m enthusiastic about taking on fresh challenges and providing creative solutions, and I&apos;m eager for the opportunities that lie ahead in the dynamic world of technology.
+            I&apos;m enthusiastic about taking on fresh challenges and providing
+            creative solutions, and I&apos;m eager for the opportunities that
+            lie ahead in the dynamic world of technology.
           </p>
           <p className="about-grid-info-text">
             Here are a few technologies I&apos;ve been working with recently:
@@ -60,7 +72,7 @@ function About() {
         </div>
       </div>
     </motion.div>
-  );
+  )
 }
 
-export default About;
+export default About
