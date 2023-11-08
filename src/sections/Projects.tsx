@@ -43,16 +43,6 @@ function Projects() {
       }
     },
     {
-      image: "/project4.png",
-      projectName: "Ongaonga Bed & Breakfast",
-      projectDescription: `In this project, we embarked on our initial journey of combining front-end and back-end elements within a single application. We utilized PHP and SQL to develop a fictitious bed and breakfast website. You can explore the test user account with these credentials: username - test@test.com | password - 12345678.`,
-      projectTech: ["PHP", "CSS", "JavaScript", "SQL"],
-      projectExternalLinks: {
-        github: "https://github.com/Zeldris1134/OngaongaB-B",
-        externalLink: "http://ongaongabedandbreakfast.unaux.com/"
-      }
-    },
-    {
       image: "/project5.png",
       projectName: "Technotes",
       projectDescription:
